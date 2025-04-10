@@ -1,4 +1,4 @@
-# LLM quest generator
+# Spirits Hollow
 
 Simple overview of use/purpose.
 
