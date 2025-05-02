@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970a9a41fd16b9644a8f3af46a76d346, type: 3}
+  m_Name: CherrySeeds
+  m_EditorClassIdentifier: 
+  type: 2
+  actionType: 8
+  ID: 100
+  cropData: {fileID: 11400000, guid: 61426d2e837240741a544398c6b7aa28, type: 2}
+  stackable: 0
+  inventorySprite: {fileID: 2818292405535118290, guid: 154ded0bf809d694b872c83628bb2e11, type: 3}
+  collectableSprite: {fileID: 657914561, guid: 02cb08537dfd80e4f8329b6fec28390a, type: 3}
+  maxStackCount: 99

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: GrapeData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: f6b50e646a71caa4db83dade23ed0763, type: 2}
+  - {fileID: 11400000, guid: 9f6138e728857aa4ab8f30ad53934596, type: 2}
+  - {fileID: 11400000, guid: d2fb5df8316a35141b05331facc828a2, type: 2}
+  - {fileID: 11400000, guid: 69477c761c65b6b47aa5077dcc8f5abb, type: 2}
+  growthStagesExtra:
+  - {fileID: 11400000, guid: 7fbeda5b48000fe4497b1de7817c9e75, type: 2}
+  - {fileID: 11400000, guid: 5c65c0198c9672549aae553b995eebbf, type: 2}
+  - {fileID: 11400000, guid: f66dd1097e1138344a4778d1cf7cc077, type: 2}
+  - {fileID: 11400000, guid: 8c5c059c470d44041a9a40b619e0961e, type: 2}
+  stageTimes: 01000000010000000100000001000000

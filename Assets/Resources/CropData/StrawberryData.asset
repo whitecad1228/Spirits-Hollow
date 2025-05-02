@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: StrawberryData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 0fc4ab6187162a44cb026bafc58867f8, type: 2}
+  - {fileID: 11400000, guid: daebd566a9be3f7478a5b36e0a422465, type: 2}
+  - {fileID: 11400000, guid: 1f0a00a040caa0b448eac2552861a3a9, type: 2}
+  - {fileID: 11400000, guid: ea3ca1ea178998e4aafec8a34b86af87, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stageTimes: 01000000010000000100000001000000

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: RedPepperData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: c194e984aebfad14fb4d79bfb40867b1, type: 2}
+  - {fileID: 11400000, guid: ab63c9ce43d53e74c943971c6e5e7765, type: 2}
+  - {fileID: 11400000, guid: 754a75520decd7049b548aef8ea36a90, type: 2}
+  - {fileID: 11400000, guid: bd3006a8ced053943be76a5704a42c69, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 610102ff6ac9b7747acc5f3bbbe94370, type: 2}
+  - {fileID: 11400000, guid: 9eca81f3b5d1b42458c46c832a1b8972, type: 2}
+  - {fileID: 11400000, guid: 3e4af962c1004804d8ac6d998de03be3, type: 2}
+  stageTimes: 01000000010000000100000001000000

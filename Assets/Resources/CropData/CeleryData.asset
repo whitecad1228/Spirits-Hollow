@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: CeleryData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 4348f4d156c86d944843b169c5107bfb, type: 2}
+  - {fileID: 11400000, guid: 82442bc886c2f82489a6bc3de76836c6, type: 2}
+  - {fileID: 11400000, guid: 4df3e4ac2114c1b4d8aa710906c98c3c, type: 2}
+  - {fileID: 11400000, guid: 084d5a36501546d459b97064fd1a54ad, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 270222fe067120a43a65bd460a9243a3, type: 2}
+  - {fileID: 11400000, guid: 5104d5df3ce455c42b68171a25429c2c, type: 2}
+  stageTimes: 01000000010000000100000001000000

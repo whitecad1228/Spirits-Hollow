@@ -1,36 +1,36 @@
-using System.ComponentModel;
+using System.Data.Common;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
 
-[CreateAssetMenu(menuName = "Scriptable object/Item")]
-public class Item : ScriptableObject
+[RequireComponent(typeof(Rigidbody2D))]
+public class Item : MonoBehaviour
 {
-    
+    public ItemData data;
+    public SpriteRenderer spriteRenderer;
 
-    [Header("Only gameplay")]
-    public TileBase tile;
-    public ToolboxItemFilterType type;
-    public ActionType actionType;
-    public Vector2 range = new Vector2Int(5,4);
+    [HideInInspector] public Rigidbody2D rb;
 
-    [Header("Only UI")]
-    public bool stackable = false;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        
+    }
+    private void Start()
+    {
+        spriteRenderer.sprite = data.collectableSprite;
+    }
 
-    [Header("Both")]
-    public Sprite sprite;
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayerController player = collision.GetComponent<PlayerController>();
 
-    public int maxStackCount = 64;
-
-}
-
-public enum ItemType{
-    None,
-    Tool
-}
-
-public enum ActionType {
-    None,
-    Dig,
-    Mine
+        if(player){
+            
+            Item item = GetComponent<Item>();
+            if(item != null){
+                player.CollectItem(item);
+                Destroy(this.gameObject);
+            }
+        }
+    }
 }

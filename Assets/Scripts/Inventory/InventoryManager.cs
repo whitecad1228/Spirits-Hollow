@@ -13,7 +13,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryGroup;
 
     private GameObject Selector;
-    public Item[] items;
+    // public Item[] items;
 
     public int selectedSlot = 0;
 
@@ -49,17 +49,22 @@ public class InventoryManager : MonoBehaviour
 
     }
 
-    public void PickupItem(int id){
-        AddItem(items[id]);
+    public void PickupItem(int id, int count = 1){
+        AddItem(GameManager.instance.itemManager.items[id]);
     }
 
-    public bool AddItem(Item item){
+
+    public void PickupItem(String id, int count = 1){
+        AddItem(GameManager.instance.itemManager.GetItemData(id));
+    }
+
+    public bool AddItem(ItemData item, int count = 1){
 
         for(int i = 0; i < inventorySlots.Length; i++){
             InventorySlot slot = inventorySlots[i];
             InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
-            if(itemInSlot != null && (itemInSlot.item == item) && (itemInSlot.count < item.maxStackCount) && (item.stackable == true)){
-                itemInSlot.count++;
+            if(itemInSlot != null && (itemInSlot.item == item) && (itemInSlot.count + count< item.maxStackCount) && (item.stackable == true)){
+                itemInSlot.count += count;
                 itemInSlot.RefreshCount();
                 return true;
             }
@@ -76,18 +81,18 @@ public class InventoryManager : MonoBehaviour
         return false;
     }
 
-    private void SpawnNewItem(Item item, InventorySlot slot)
+    private void SpawnNewItem(ItemData item, InventorySlot slot)
     {
         GameObject newItemGo = Instantiate(InventoryObjectPrefab, slot.transform);
         InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();
         inventoryItem.InitializeItem(item);
     }
 
-    public Item GetSelectedItem(bool use){
+    public ItemData GetSelectedItem(bool use){
         InventorySlot slot = inventorySlots[selectedSlot];
         InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
         if(itemInSlot != null){
-            Item item = itemInSlot.item;
+            ItemData item = itemInSlot.item;
             if(use == true){
                 itemInSlot.count--;
                 if(itemInSlot.count <= 0){

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970a9a41fd16b9644a8f3af46a76d346, type: 3}
+  m_Name: PearSeeds
+  m_EditorClassIdentifier: 
+  type: 2
+  actionType: 8
+  ID: 112
+  cropData: {fileID: 11400000, guid: 9038e37a4cfa3cb4f9d4265e215f4c4f, type: 2}
+  stackable: 0
+  inventorySprite: {fileID: 2432451845042653089, guid: 154ded0bf809d694b872c83628bb2e11, type: 3}
+  collectableSprite: {fileID: -6370768826993680029, guid: 02cb08537dfd80e4f8329b6fec28390a, type: 3}
+  maxStackCount: 99

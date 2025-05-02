@@ -9,7 +9,7 @@ public class InventoryItem : MonoBehaviour , IBeginDragHandler , IDragHandler, I
     
     public Image Image;
     public TMP_Text countText;
-    [HideInInspector] public Item item;
+    [HideInInspector] public ItemData item;
     [HideInInspector] public Transform parentAfterDrag;
     [HideInInspector] public int count = 1;
     public void OnBeginDrag(PointerEventData eventData)
@@ -42,11 +42,10 @@ public class InventoryItem : MonoBehaviour , IBeginDragHandler , IDragHandler, I
         
     }
 
-    public void InitializeItem(Item newItem){
+    public void InitializeItem(ItemData newItem){
         item = newItem;
-        Image.sprite = newItem.sprite;
+        Image.sprite = newItem.inventorySprite;
         RefreshCount();
-        
     }
 
     public void RefreshCount()

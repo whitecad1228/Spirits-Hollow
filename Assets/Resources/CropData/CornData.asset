@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: CornData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 7c0a4594673d44a49984c039aa747871, type: 2}
+  - {fileID: 11400000, guid: 9683cf0aec5edc54081da939248460be, type: 2}
+  - {fileID: 11400000, guid: 6412d07ee4f1717488e8533936a4652a, type: 2}
+  - {fileID: 11400000, guid: 372ac967ea6a20f4ebebe92776bad893, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7aa13cf0a7f778b439915044bf892b89, type: 2}
+  - {fileID: 11400000, guid: e23e0ef564e9fbb4c89da08875540d32, type: 2}
+  - {fileID: 11400000, guid: bcadbf32dbf5b3b458486ca71bccf1d3, type: 2}
+  stageTimes: 01000000010000000100000001000000

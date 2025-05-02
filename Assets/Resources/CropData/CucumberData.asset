@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: CucumberData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 293efd4f4119b1c44bc84367e61f7fc7, type: 2}
+  - {fileID: 11400000, guid: 305bf0ea3292fab49aa697f013c342b5, type: 2}
+  - {fileID: 11400000, guid: 7b02664b5ad407547b0fac04c32d4589, type: 2}
+  - {fileID: 11400000, guid: 938f88ca7ac6fbf4baa69300c08d13d5, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 397ea49fdcf0c1c46be3d186fd86a91f, type: 2}
+  - {fileID: 11400000, guid: ee4628e029e2d794bb412bb02fc0bff1, type: 2}
+  - {fileID: 11400000, guid: fb2915f1591f79044b47baef10acbf4e, type: 2}
+  stageTimes: 01000000010000000100000001000000

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: PotatoData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 174812d683e6f9b4b8fb97ed540bfbea, type: 2}
+  - {fileID: 11400000, guid: 1b5aea7f25cd6844699cba64d8c5411c, type: 2}
+  - {fileID: 11400000, guid: 5e0f8e2884be3674c9fedd54a7abac8c, type: 2}
+  - {fileID: 11400000, guid: 40dbc9293a1e98c4b963c48ffec662f0, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2490af274b5aea04a98101d7a0d52c8b, type: 2}
+  - {fileID: 11400000, guid: 42a0f66afd057b14da27f1ba498a4599, type: 2}
+  stageTimes: 01000000010000000100000001000000

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: ChiliPepperData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: 96e0a9e49bc1eed40a94caf53e7b2714, type: 2}
+  - {fileID: 11400000, guid: 2368e8497dca9e6478e20675dee055d3, type: 2}
+  - {fileID: 11400000, guid: aad4503259eb8b349ad8fd4e870b6d36, type: 2}
+  - {fileID: 11400000, guid: e32af3d0b886db04dbea2645c6e8c60f, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: dfc4c117cef11f9489e7dcb4f485afea, type: 2}
+  - {fileID: 11400000, guid: eddf29cf17f1ba34f971fe5a0ddd4a69, type: 2}
+  - {fileID: 11400000, guid: 325085e42d38a374aa257e52414ad76a, type: 2}
+  stageTimes: 01000000

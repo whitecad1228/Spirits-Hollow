@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f6da984296f594a8a77faf749262cf, type: 3}
+  m_Name: BeetData
+  m_EditorClassIdentifier: 
+  cropName: 
+  growthStages:
+  - {fileID: 11400000, guid: bd5e1fc4d7b482f4e9219741a57b1299, type: 2}
+  - {fileID: 11400000, guid: 55a2af1eae52d664e8efce7ad9549ee0, type: 2}
+  - {fileID: 11400000, guid: 437821dd2731bfe4ca583b0d404021bc, type: 2}
+  - {fileID: 11400000, guid: e8c931be399d91741a33e11df842417e, type: 2}
+  growthStagesExtra:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: da315d96a58c28d479e1fdbb13e57d10, type: 2}
+  - {fileID: 11400000, guid: e8e30694e22e7474997bfb13e767e703, type: 2}
+  stageTimes: 01000000010000000100000001000000
