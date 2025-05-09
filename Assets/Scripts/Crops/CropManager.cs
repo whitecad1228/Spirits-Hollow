@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -40,5 +41,32 @@ public class CropManager : MonoBehaviour
             }
         }
     }
+
+    public void HarvestCrop(Vector3Int tilePos)
+    {
+        var crop = activeCrops.FirstOrDefault(c => c.tilePosition == tilePos);
+        if (crop != null && crop.currentStage == crop.cropData.growthStages.Length - 1)
+        {
+            // Harvest logic here (give item, remove tile, etc.)
+            GameManager.instance.itemManager.CreateCollectable(tilePos,crop.cropData.harvestData,Vector3.zero);
+            if(crop.cropData.MultiHarvest){
+                crop.growthTimer = 0f;
+                crop.currentStage--;
+
+                cropTilemap.SetTile(tilePos, crop.cropData.growthStages[crop.currentStage]);
+                if(crop.cropData.growthStagesExtra[crop.currentStage] != null){
+                    cropExtraTilemap.SetTile(tilePos + Vector3Int.up, crop.cropData.growthStagesExtra[crop.currentStage]);
+                }
+            }else{
+                cropTilemap.SetTile(tilePos, null);
+                if(crop.cropData.growthStagesExtra[crop.currentStage] != null){
+                    cropTilemap.SetTile(tilePos + Vector3Int.up, null);
+                }
+                activeCrops.Remove(crop);
+            }
+            
+        }
+    }
+
 }
 

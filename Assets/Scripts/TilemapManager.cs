@@ -59,26 +59,26 @@ public class TilemapManager : MonoBehaviour
             Debug.Log(tilemap);
             TileBase tile = tilemap.GetTile(position);
             ItemData selectedItem = GameManager.instance.inventoryManager.GetSelectedItem(false);
+            if(selectedItem != null){
+                if (tile is InteractableTile interactableTile && interactableTile.isInteractable && selectedItem.actionType == interactableTile.actionType) {
+                    TileBase tileToChangeTo = null;
+                    if(selectedItem.type == ItemType.Tool){
+                        tileToChangeTo = interactableTile.tileToChangeTo;
+                    }
+                    if(selectedItem.type == ItemType.Seed){
+                        GameManager.instance.cropManager.PlantCrop(position,selectedItem.cropData);
+                        return;
+                    }
 
-            
-            if (tile is InteractableTile interactableTile && interactableTile.isInteractable && selectedItem.actionType == interactableTile.actionType) {
-                TileBase tileToChangeTo = null;
-                if(selectedItem.type == ItemType.Tool){
-                    tileToChangeTo = interactableTile.tileToChangeTo;
-                }
-                if(selectedItem.type == ItemType.Seed){
-                    GameManager.instance.cropManager.PlantCrop(position,selectedItem.cropData);
+                    Tilemap targetTilemap = GetTilemap(interactableTile.targetTilemapLayer);
+                    if(targetTilemap == null){
+                        Debug.Log("error with tilemap");
+                    }
+                    targetTilemap.SetTile(position, tileToChangeTo);
                     return;
                 }
-
-                Tilemap targetTilemap = GetTilemap(interactableTile.targetTilemapLayer);
-                if(targetTilemap == null){
-                    Debug.Log("error with tilemap");
-                }
-                targetTilemap.SetTile(position, tileToChangeTo);
-                return;
-            }
-
+            } 
+            GameManager.instance.cropManager.HarvestCrop(position);
         }
 
     }

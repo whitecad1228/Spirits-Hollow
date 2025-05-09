@@ -23,4 +23,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eff1e52925f62a8459c2692ac250ac36, type: 2}
   - {fileID: 11400000, guid: aea9a5b06f3a87544b560eeaea6d533a, type: 2}
   - {fileID: 11400000, guid: 2b3680f4a26a46748b12397be73e64a2, type: 2}
+  MultiHarvest: 0
+  harvestData: {fileID: 11400000, guid: 17da9a9845823494c8d4159d0120a8cb, type: 2}
   stageTimes: 01000000010000000100000001000000

@@ -9,8 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private KeyCode InteractButton;
 
     [SerializeField] private KeyCode ThrowButton;
-
-    [SerializeField] private Item ItemPrefab;
+    private Vector2 currentDirection;
 
     private Rigidbody2D rb;
     private const string _Horizontal = "Horizontal";
@@ -49,12 +48,10 @@ public class PlayerController : MonoBehaviour
 
         Vector2 direction = new Vector2(horizontal,vertical);
         rb.linearVelocity = direction.normalized * speed;
+        currentDirection = direction.normalized;
 
         animator.SetFloat(_Horizontal,horizontal);
         animator.SetFloat(_Vertical,vertical);
-
-
-        
 
         if(direction != Vector2.zero){
             spriteRenderer.flipX = horizontal < 0f;
@@ -66,15 +63,8 @@ public class PlayerController : MonoBehaviour
     void ThrowItem(){
         ItemData item = GameManager.instance.inventoryManager.GetSelectedItem(true);
         if(item != null){
-            Vector2 spawnLocation = transform.position;
-
-            Vector2 spawnOffset = Random.insideUnitCircle * 1.5f;
-
-            Item droppedItem = Instantiate(ItemPrefab, spawnLocation + spawnOffset, Quaternion.identity);
-            droppedItem.data = item;
-            droppedItem.rb.AddForce(spawnOffset * .2f, ForceMode2D.Impulse);
+            GameManager.instance.itemManager.CreateCollectable(transform.position,item, new Vector3(currentDirection.x,currentDirection.y,0));
         }
-        
     }
 
     public void CollectItem(Item item){
