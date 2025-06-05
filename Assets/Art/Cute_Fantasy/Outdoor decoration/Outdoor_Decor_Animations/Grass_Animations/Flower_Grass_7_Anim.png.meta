@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flower_Grass_7_Anim_0: -6216537996483913945
+      Flower_Grass_7_Anim_1: -7662754875773760735
+      Flower_Grass_7_Anim_2: -8228943541367304751
+      Flower_Grass_7_Anim_3: 2182195491812335215
+      Flower_Grass_7_Anim_4: -5896805663606456000
+      Flower_Grass_7_Anim_5: -3266610370278183540
+      Flower_Grass_7_Anim_6: 2863541745696128248
+      Flower_Grass_7_Anim_7: -3013122520401602381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

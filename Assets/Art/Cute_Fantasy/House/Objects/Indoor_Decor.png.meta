@@ -181,7 +181,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -195,7 +195,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -219,7 +219,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -249,7 +249,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 208
-        width: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Indoor_Decor_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 191
-        width: 27
-        height: 18
+        x: 16
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,9 +292,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
-        width: 17
-        height: 26
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: Indoor_Decor_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 207
-        width: 18
-        height: 17
+        x: 48
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,8 +336,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 207
-        width: 17
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -357,8 +357,8 @@ TextureImporter:
       name: Indoor_Decor_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 80
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -379,10 +379,10 @@ TextureImporter:
       name: Indoor_Decor_6
       rect:
         serializedVersion: 2
-        x: 79
-        y: 191
-        width: 17
-        height: 33
+        x: 0
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +401,10 @@ TextureImporter:
       name: Indoor_Decor_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159
+        x: 16
+        y: 192
         width: 16
-        height: 33
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Indoor_Decor_8
       rect:
         serializedVersion: 2
-        x: 51
+        x: 32
         y: 192
-        width: 10
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: Indoor_Decor_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
+        x: 48
+        y: 192
         width: 16
-        height: 31
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +467,10 @@ TextureImporter:
       name: Indoor_Decor_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 17
-        height: 26
+        x: 64
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +489,10 @@ TextureImporter:
       name: Indoor_Decor_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 181
+        x: 80
+        y: 192
         width: 16
-        height: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: Indoor_Decor_12
       rect:
         serializedVersion: 2
-        x: 66
-        y: 179
-        width: 11
-        height: 10
+        x: 0
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: Indoor_Decor_13
       rect:
         serializedVersion: 2
-        x: 84
-        y: 178
-        width: 9
-        height: 12
+        x: 16
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,9 +556,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 176
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,9 +578,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 176
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,10 +599,10 @@ TextureImporter:
       name: Indoor_Decor_16
       rect:
         serializedVersion: 2
-        x: 67
-        y: 144
-        width: 10
-        height: 22
+        x: 64
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,10 +621,10 @@ TextureImporter:
       name: Indoor_Decor_17
       rect:
         serializedVersion: 2
-        x: 82
-        y: 160
-        width: 11
-        height: 15
+        x: 80
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: Indoor_Decor_18
       rect:
         serializedVersion: 2
-        x: 1
-        y: 128
-        width: 15
-        height: 25
+        x: 0
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,10 +665,10 @@ TextureImporter:
       name: Indoor_Decor_19
       rect:
         serializedVersion: 2
-        x: 17
-        y: 128
-        width: 14
-        height: 25
+        x: 16
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,9 +687,9 @@ TextureImporter:
       name: Indoor_Decor_20
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
-        width: 32
+        x: 32
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: Indoor_Decor_21
       rect:
         serializedVersion: 2
-        x: 82
-        y: 144
-        width: 11
-        height: 15
+        x: 48
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,9 +731,9 @@ TextureImporter:
       name: Indoor_Decor_22
       rect:
         serializedVersion: 2
-        x: 67
-        y: 112
-        width: 9
+        x: 64
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -753,10 +753,10 @@ TextureImporter:
       name: Indoor_Decor_23
       rect:
         serializedVersion: 2
-        x: 82
-        y: 128
-        width: 11
-        height: 15
+        x: 80
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,10 +775,10 @@ TextureImporter:
       name: Indoor_Decor_24
       rect:
         serializedVersion: 2
-        x: 83
-        y: 95
-        width: 10
-        height: 34
+        x: 0
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,10 +797,10 @@ TextureImporter:
       name: Indoor_Decor_25
       rect:
         serializedVersion: 2
-        x: 1
-        y: 96
-        width: 14
-        height: 25
+        x: 16
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: Indoor_Decor_26
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 15
-        height: 25
+        x: 32
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +841,10 @@ TextureImporter:
       name: Indoor_Decor_27
       rect:
         serializedVersion: 2
-        x: 32
-        y: 95
-        width: 15
-        height: 27
+        x: 48
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +863,10 @@ TextureImporter:
       name: Indoor_Decor_28
       rect:
         serializedVersion: 2
-        x: 50
-        y: 96
-        width: 11
-        height: 20
+        x: 64
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +885,10 @@ TextureImporter:
       name: Indoor_Decor_29
       rect:
         serializedVersion: 2
-        x: 63
-        y: 95
-        width: 18
-        height: 17
+        x: 80
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: Indoor_Decor_30
       rect:
         serializedVersion: 2
-        x: 5
-        y: 83
-        width: 7
-        height: 12
+        x: 0
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,10 +929,10 @@ TextureImporter:
       name: Indoor_Decor_31
       rect:
         serializedVersion: 2
-        x: 21
-        y: 83
-        width: 7
-        height: 12
+        x: 16
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,10 +951,10 @@ TextureImporter:
       name: Indoor_Decor_32
       rect:
         serializedVersion: 2
-        x: 37
-        y: 83
-        width: 7
-        height: 12
+        x: 32
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -973,10 +973,10 @@ TextureImporter:
       name: Indoor_Decor_33
       rect:
         serializedVersion: 2
-        x: 53
-        y: 83
-        width: 7
-        height: 12
+        x: 48
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,10 +995,10 @@ TextureImporter:
       name: Indoor_Decor_34
       rect:
         serializedVersion: 2
-        x: 69
-        y: 83
-        width: 7
-        height: 12
+        x: 64
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1017,10 +1017,10 @@ TextureImporter:
       name: Indoor_Decor_35
       rect:
         serializedVersion: 2
-        x: 83
-        y: 63
-        width: 10
-        height: 21
+        x: 80
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1039,10 +1039,10 @@ TextureImporter:
       name: Indoor_Decor_36
       rect:
         serializedVersion: 2
-        x: 5
-        y: 67
-        width: 7
-        height: 12
+        x: 0
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1061,10 +1061,10 @@ TextureImporter:
       name: Indoor_Decor_37
       rect:
         serializedVersion: 2
-        x: 21
-        y: 67
-        width: 7
-        height: 12
+        x: 16
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1083,10 +1083,10 @@ TextureImporter:
       name: Indoor_Decor_38
       rect:
         serializedVersion: 2
-        x: 37
-        y: 67
-        width: 7
-        height: 12
+        x: 32
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: Indoor_Decor_39
       rect:
         serializedVersion: 2
-        x: 53
-        y: 67
-        width: 7
-        height: 12
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,10 +1127,10 @@ TextureImporter:
       name: Indoor_Decor_40
       rect:
         serializedVersion: 2
-        x: 69
-        y: 67
-        width: 7
-        height: 12
+        x: 64
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,10 +1149,10 @@ TextureImporter:
       name: Indoor_Decor_41
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31
-        width: 17
-        height: 24
+        x: 80
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,9 +1172,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 17
-        height: 32
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,10 +1193,10 @@ TextureImporter:
       name: Indoor_Decor_43
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 17
-        height: 17
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,10 +1215,10 @@ TextureImporter:
       name: Indoor_Decor_44
       rect:
         serializedVersion: 2
-        x: 16
-        y: 31
-        width: 17
-        height: 22
+        x: 32
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,10 +1237,10 @@ TextureImporter:
       name: Indoor_Decor_45
       rect:
         serializedVersion: 2
-        x: 32
-        y: 31
-        width: 17
-        height: 24
+        x: 48
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1259,10 +1259,10 @@ TextureImporter:
       name: Indoor_Decor_46
       rect:
         serializedVersion: 2
-        x: 48
-        y: 31
-        width: 17
-        height: 22
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: Indoor_Decor_47
       rect:
         serializedVersion: 2
-        x: 64
-        y: 31
-        width: 17
-        height: 22
+        x: 80
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: Indoor_Decor_48
       rect:
         serializedVersion: 2
-        x: 83
-        y: 31
-        width: 10
-        height: 21
+        x: 0
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,11 +1321,583 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714bfe0dd0312454097f479ecc7dbe95
+      internalID: 47399978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd0aa34c824934d8796900bf516d07
+      internalID: 177898961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452e9eef7b40600449a9bd7f625da734
+      internalID: 585415873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d556fd632de669a419db00e9a8dde897
+      internalID: -1160741268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496b5797f7f6c24e9f7727e0ed93ec8
+      internalID: -239649920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40629dd0eee9f8e4fb16b8c961fcc7bc
+      internalID: -1288859041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a97a58c3300cd4fa4c9ab448ba61c0
+      internalID: 1239763943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93d547e39b8154e8c5620b73c2308f
+      internalID: 1581957276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c132294bafd0149b58e6b6fe65f66c
+      internalID: 383483188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e80b06f1cff1d14f9daf0242e6ec67c
+      internalID: 455332480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_59
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a14a523507568349a1837da7723a844
+      internalID: 354511353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880b3ae29fc9bfe42bd8b65cdcec43c8
+      internalID: 1953871214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20823a70397f0584eb9b8afd9435de3a
+      internalID: 1438297222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f449af6b5b4bf9f4f86895771819545f
+      internalID: 1362875260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ffd422e3950c448c3f9dcfdd81009
+      internalID: -375883255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ce118b87991e48997586904c147f1
+      internalID: -115166851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f1930a77440bb4ba37bed95787a4f9
+      internalID: 130929737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38033714da6b0a478107588901ed3bd
+      internalID: -1381411334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947f140dd999c754486caec1c34593b8
+      internalID: -859877984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfa6d7b2dadadc4f814d476d887b15e
+      internalID: -732690433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af856eb0969d40a45bb50da2c31a3574
+      internalID: 28130846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b633b2e37b475409d77b446208f64d
+      internalID: 880503960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fc5643bfc83d743821d9710841fcbb
+      internalID: 1918235692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58916b74c3bb048429701a6588df3f9e
+      internalID: 1016469447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e76a6dc18a0794eb7bde6cf6863e53
+      internalID: 1859122944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_Decor_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a78be3f30ee0b4aabedb63587b5828
+      internalID: -351146477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: da3bd2bf5428bec4d8e3500672b81fc3
     internalID: 0
     vertices: []
     indices: 
@@ -1334,7 +1906,82 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Indoor_Decor_0: -2902826645585602371
+      Indoor_Decor_1: 3344712945268891693
+      Indoor_Decor_10: -2459780794894411086
+      Indoor_Decor_11: 27162680321177166
+      Indoor_Decor_12: 8122099543443433271
+      Indoor_Decor_13: 1183448367839277072
+      Indoor_Decor_14: 3818921239294019970
+      Indoor_Decor_15: 5825854065764907023
+      Indoor_Decor_16: 1085479066418096445
+      Indoor_Decor_17: -328269144231165199
+      Indoor_Decor_18: 8961073377253906795
+      Indoor_Decor_19: -8189741338779347019
+      Indoor_Decor_2: 8923030546267593058
+      Indoor_Decor_20: -6254015798558362956
+      Indoor_Decor_21: 8452877872077401558
+      Indoor_Decor_22: 8019090117685267412
+      Indoor_Decor_23: -4733787457406052165
+      Indoor_Decor_24: 6188821364851469854
+      Indoor_Decor_25: -8746068286703188149
+      Indoor_Decor_26: 2596594292129162202
+      Indoor_Decor_27: 3011140103621518429
+      Indoor_Decor_28: -3954938056659337657
+      Indoor_Decor_29: 8126493325037409362
+      Indoor_Decor_3: -2267429849313683585
+      Indoor_Decor_30: 2763812293992782901
+      Indoor_Decor_31: 6321087649690272468
+      Indoor_Decor_32: 6339021761525190526
+      Indoor_Decor_33: 7861550493602762629
+      Indoor_Decor_34: -1523022110884017288
+      Indoor_Decor_35: 7565913581070044364
+      Indoor_Decor_36: -5295295415061072696
+      Indoor_Decor_37: 4954556536197654523
+      Indoor_Decor_38: -2955501475288137399
+      Indoor_Decor_39: -3297364198786500836
+      Indoor_Decor_4: -2432320405720514124
+      Indoor_Decor_40: -2979663172117094269
+      Indoor_Decor_41: -4244810051875075243
+      Indoor_Decor_42: 2793232052585332932
+      Indoor_Decor_43: -8225355706703455833
+      Indoor_Decor_44: 2233506457061945454
+      Indoor_Decor_45: -3873421996888071112
+      Indoor_Decor_46: 7940098744210341387
+      Indoor_Decor_47: 2994189308669773409
+      Indoor_Decor_48: -1058988492983939899
+      Indoor_Decor_49: 47399978
+      Indoor_Decor_5: -7480766592480335456
+      Indoor_Decor_50: 177898961
+      Indoor_Decor_51: 585415873
+      Indoor_Decor_52: -1160741268
+      Indoor_Decor_53: -239649920
+      Indoor_Decor_54: -1288859041
+      Indoor_Decor_55: 1239763943
+      Indoor_Decor_56: 1581957276
+      Indoor_Decor_57: 383483188
+      Indoor_Decor_58: 455332480
+      Indoor_Decor_59: 354511353
+      Indoor_Decor_6: -7827301973494543612
+      Indoor_Decor_60: 1953871214
+      Indoor_Decor_61: 1438297222
+      Indoor_Decor_62: 1362875260
+      Indoor_Decor_63: -375883255
+      Indoor_Decor_64: -115166851
+      Indoor_Decor_65: 130929737
+      Indoor_Decor_66: -1381411334
+      Indoor_Decor_67: -859877984
+      Indoor_Decor_68: -732690433
+      Indoor_Decor_69: 28130846
+      Indoor_Decor_7: -4524868078836883629
+      Indoor_Decor_70: 880503960
+      Indoor_Decor_71: 1918235692
+      Indoor_Decor_72: 1016469447
+      Indoor_Decor_73: 1859122944
+      Indoor_Decor_74: -351146477
+      Indoor_Decor_8: 6070291755390593943
+      Indoor_Decor_9: 6360420064272250698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

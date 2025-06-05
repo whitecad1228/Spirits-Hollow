@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1948917342280070847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2474894024990177057}
+  - component: {fileID: 1442876875757513390}
+  - component: {fileID: 6098027265281151351}
+  - component: {fileID: 1485923202112283872}
+  - component: {fileID: 4702442816240107237}
+  - component: {fileID: 5376726516460509968}
+  - component: {fileID: 5074303013612414602}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2474894024990177057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1442876875757513390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a3de6620e44504a9acd91cc0624fa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryManager: {fileID: 0}
+  tilemapManager: {fileID: 0}
+  itemManager: {fileID: 0}
+  uiManager: {fileID: 0}
+  cropManager: {fileID: 0}
+  persistentObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &6098027265281151351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12664bc10bffc545a1d62945cc5b0b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  InventoryObjectPrefab: {fileID: 4048828110768714526, guid: 9b82e940532f9b849942b6dad14ec7f0, type: 3}
+  SelectorPrefab: {fileID: 2470055483835594075, guid: 6266fb3b19547da46b78eb9799b451a0, type: 3}
+  InventoryGroup: {fileID: 0}
+  selectedSlot: 0
+--- !u!114 &1485923202112283872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ccc4c3e56a1114da225089b715f256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTile: {fileID: 11400000, guid: fa0a087b8d2563a44999b0d1f100054b, type: 2}
+  groundTilemapName: Ground
+  wateredTilemapName: Watered
+  cropsTilemapName: Crops
+  cursorTilemapName: HighlightCursor
+  cursorTilemap: {fileID: 0}
+--- !u!114 &4702442816240107237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c6442f7ecf451439167848bceeca36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  ItemPrefab: {fileID: 2176468839602099594, guid: ff9b70f3164c9e64284a76ac62549c65, type: 3}
+--- !u!114 &5376726516460509968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcec3db602957247846c50fbb64ba9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InventoryButton: 101
+  TextButton: 13
+  CommandButton: 47
+  InventoryUI: {fileID: 0}
+  TextUI: {fileID: 0}
+  TextUItest: {fileID: 0}
+  healthBar: {fileID: 0}
+  staminaBar: {fileID: 0}
+  magicBar: {fileID: 0}
+  Paused: 0
+--- !u!114 &5074303013612414602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948917342280070847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7adb1fc1dfedeb408e554c75920649c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cropTilemap: {fileID: 0}
+  cropExtraTilemap: {fileID: 0}
